@@ -1,0 +1,36 @@
+{
+  "name": "amadeus-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "url": "https://github.com/darseen/amadeus-ts"
+  },
+  "scripts": {
+    "prebuild": "rimraf dist/",
+    "test": "vitest",
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "lint": "tsc"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [],
+  "author": "Mohammed Alsammarrai",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "qs": "^6.11.2"
+  },
+  "devDependencies": {
+    "@types/bluebird": "^3.5.42",
+    "@types/node": "^20.10.5",
+    "@types/qs": "^6.9.11",
+    "rimraf": "^5.0.5",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3",
+    "vitest": "^1.1.1"
+  }
+}
