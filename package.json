@@ -21,11 +21,9 @@
   "author": "Mohammed Alsammarrai",
   "license": "ISC",
   "dependencies": {
-    "bluebird": "^3.7.2",
     "qs": "^6.11.2"
   },
   "devDependencies": {
-    "@types/bluebird": "^3.5.42",
     "@types/node": "^20.10.5",
     "@types/qs": "^6.9.11",
     "rimraf": "^5.0.5",
